@@ -1,2 +1,16 @@
-angular
-  .module('thinkster', []);
+(function(){
+    'use strict';
+
+    angular.module('thinkster', ['thinkster.routes', 'thinkster.authentication']);
+
+    angular.module('thinkster.routes', ['ngRoute']);
+
+    angular.module('thinkster.config', []);
+
+    function run($http){
+        $http.defaults.xsrfHeaderName = 'X-CSRFToken';
+        $http.defaults.xsrfCookieName = 'csrfToken';
+    }
+
+})();
+
