@@ -21,7 +21,7 @@
     var vm = this;
 
     vm.register = register;
-
+    alert("what about this");
     /**
     * @name register
     * @desc Register a new user

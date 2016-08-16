@@ -5,17 +5,16 @@
         .module('thinkster.authentication.controllers')
         .controller('LoginController', LoginController);
 
-    LoginController.$inject = [$location, $scope, Authentication];
+    LoginController.$inject = ['$location', '$scope', 'Authentication'];
 
     function LoginController($location, $scope, Authentication){
-
         var vm = this;
         vm.login = login;
 
         activate();
 
         function activate(){
-            if(Authentication.isAuthenticated){
+            if(Authentication.isAuthenticated()){
                 $location.url('/');
             }
         }
