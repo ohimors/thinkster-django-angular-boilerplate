@@ -36,6 +36,7 @@ class AccountViewSet(viewsets.ModelViewSet):
 
 class LoginView(views.APIView):
     def post(self, request, format=None):
+        print "==================== In login view ==================="
         data = json.loads(request.body)
 
         email = data.get('email', None)
