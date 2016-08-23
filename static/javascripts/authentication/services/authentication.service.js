@@ -13,6 +13,7 @@
         var Authentication = {
             register: register,
             login: login,
+            logout: logout,
             getAuthenticatedAccount: getAuthenticatedAccount,
             setAuthenticatedAccount: setAuthenticatedAccount,
             isAuthenticated: isAuthenticated,
@@ -44,6 +45,11 @@
             }).then(loginSuccess, loginFailure);
         }
 
+        function logout(){
+            return $http.post('/api/v1/auth/logout/')
+                .then(logoutSuccess, logoutFailure);
+        }
+
         function loginSuccess(data, status, headers, config){
             setAuthenticatedAccount(data.data);
             window.location = '/';
@@ -51,6 +57,15 @@
 
         function loginFailure(data, status, headers, config){
             console.log("Terrible terrible failure.");
+        }
+
+        function logoutSuccess(data, status, headers, config){
+            Authentication.unauthenticate();
+            window.location = '/'
+        }
+
+        function logoutFailure(data, status, headers, config){
+            console.error('Unbelievable failure!!!!');
         }
 
         function getAuthenticatedAccount(){
