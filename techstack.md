@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ohimors/thinkster-django-angular-boilerplate is built on the following main stack:
+
 - [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - [Python](https://www.python.org) – Languages
 - [Django](https://www.djangoproject.com/) – Frameworks (Full Stack)
@@ -12,11 +13,13 @@ ohimors/thinkster-django-angular-boilerplate is built on the following main stac
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ohimors/thinkster-django-angular-boilerplate is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/994/4aGjtNQv.png' alt='Django'/> [Django](https://www.djangoproject.com/) – Frameworks (Full Stack)
@@ -27,14 +30,15 @@ ohimors/thinkster-django-angular-boilerplate is built on the following main stac
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ohimors/thinkster-django-angular-boilerplate](https://github.com/ohimors/thinkster-django-angular-boilerplate)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|19<br/>Tools used|11/13/23 <br/>Report generated|
+|19<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -153,11 +157,11 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[dj-database-url](https://pypi.org/dj-database-url)|v0.3.0|01/03/09|James Brewer |BSD-2-Clause|N/A|
-|[django-appconf](https://pypi.org/django-appconf)|v0.6|01/03/09|James Brewer |BSD-3-Clause|N/A|
-|[django-compressor](https://pypi.org/django-compressor)|v1.4|01/03/09|James Brewer |MIT|N/A|
-|[djangorestframework](https://pypi.org/djangorestframework)|v3.0.0|01/03/09|James Brewer |BSD-3-Clause|[](https://github.com/advisories/GHSA-57h7-r3q3-w57j) (Moderate)<br/>[CVE-2020-25626](https://github.com/advisories/GHSA-fx83-3ph3-9j2q) (Moderate)|
-|[six](https://pypi.org/six)|v1.8.0|01/03/09|James Brewer |MIT|N/A|
+|[dj-database-url](https://pypi.org/project/dj-database-url)|v0.3.0|01/03/09|James Brewer |BSD-2-Clause|N/A|
+|[django-appconf](https://pypi.org/project/django-appconf)|v0.6|01/03/09|James Brewer |BSD-3-Clause|N/A|
+|[django-compressor](https://pypi.org/project/django-compressor)|v1.4|01/03/09|James Brewer |MIT|N/A|
+|[djangorestframework](https://pypi.org/project/djangorestframework)|v3.0.0|01/03/09|James Brewer |BSD-3-Clause|[](https://github.com/advisories/GHSA-57h7-r3q3-w57j) (Moderate)<br/>[CVE-2020-25626](https://github.com/advisories/GHSA-fx83-3ph3-9j2q) (Moderate)|
+|[six](https://pypi.org/project/six)|v1.8.0|01/03/09|James Brewer |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (3)
@@ -171,4 +175,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
